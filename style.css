@@ -1,0 +1,117 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #f4a742;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 100px;
+}
+.logo2 img {
+    height: 50px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.search input {
+    padding: 5px;
+}
+
+.search button {
+    background-color: #ff7f00;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.auth button, .cart a {
+    background-color: #ff7f00;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+.intro {
+    text-align: center;
+}
+
+.menu {
+    text-align: center;
+    background-color: #f4a742;
+    padding: 20px 0;
+    border-radius: 50px;
+}
+
+.menu h2 {
+    color: blue;
+}
+
+.pizzas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.pizza img {
+    height: 150px;
+    width: auto;
+    border-radius: 50%;
+    border: 3px solid #f4a742;
+}
+
+.order-btn {
+    background-color: #d63200;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#fundotxt {
+    color: white;
+    background-color: blue;
+    margin-left: 36%;
+    margin-right: 36%;
+    border-radius: 25px;
+}
